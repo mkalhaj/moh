@@ -1,13 +1,14 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap'); 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
 }
 
 body {
-    
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Roboto', sans-serif;
     line-height: 1.4;
     min-height: 100vh;
     background: rgb(248, 234, 208);
@@ -23,11 +24,27 @@ main {
     font-size: 1.25rem;
     color: rgb(0,0, 0,);
     
+    
 }
 
-
+/* note that for a{} the cascading is important*/
 a {
     text-decoration: none;
+   color: hsl(207, 44%, 49%);
+}
+
+/* a:visited {
+    color: purple;
+} */
+
+a:hover, a:focus {
+     color: hsl(189, 44%, 49%, 0.8); 
+     background: beige;
+     
+   
+}
+a:active {
+    color: red;
 }
 
 
@@ -44,9 +61,9 @@ a {
 }
 
 button, form {
-    font-size: inherit;
-    font-family: inherit;
-    font-weight: bold;
+    font-size: 1rem;
+    font-family: sans-serif;
+    
     
 }
 
