@@ -1,14 +1,47 @@
 
 * {
-    font-family: 'Courier New', Courier, monospace;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+body {
+    
+    font-family: 'Courier New', Courier, monospace;
+    line-height: 1.5;
+    min-height: 100vh;
+   
+    background: rgb(248, 234, 208);
+    color: #000;
+
+}
+
+.container {
+    border: 10px double rgb(178, 81, 231);
+    font-size: 1.5rem;
+    margin: 1.5em;
+    padding: 1.5em;
+    outline: 3px solid purple;
+    outline-offset: -15px;
+
+}
+
+main {
+   
+    font-size: 2rem;
+}
+
+
+
+p {
+    color: rgb(0,0, 0,);
+    font-size: 2rem;
+}
+
+
 .services {
     border: 2px none ;
-    background-color: lightblue;
+    /* background-color: lightblue; */
     width: 39ch;
     padding: 2em;
 }
