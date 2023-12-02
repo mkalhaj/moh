@@ -7,12 +7,26 @@
     <title>sign in</title>
     <link rel="stylesheet" href="css/signin.css">
 </head>
+
 <body>
-    <header><img src="../home/alligned.png" alt=""></header>
+
+    <header>
+        <img src="../home/alligned.png" alt="">
+    </header>
+
     <main>
         <h1>Sign In or Create an Account</h1>
         <h2>* indicates a required field</h2>
+
+        <form for="signin">
+            <label for="Username / Email">Username / Email</label>
+            <input type="email" id="email" placeholder="Username / Email"><br>
+            <label for="password">password</label>
+            <input type="password" id="password" placeholder="password"><br>
+            <button>Sign In</button>
+        </form>
+
+        
     </main>
-    
 </body>
 </html>
