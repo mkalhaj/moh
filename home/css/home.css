@@ -1,12 +1,25 @@
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 .services {
     border: 2px none ;
     background-color: lightblue;
     width: 39ch;
+    padding: 2em;
 }
 
 .certificates {
     width: 39ch;
     border: 2px navajowhite ;
+    padding: 2em;
     
+}
+
+.CPR {
+    padding: 3rem;
+    margin: 2em;
 }
